@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    font-family: "inter", sans-serif;
+}
+
+.nav {
+    background-color:#121212;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo>a>h3 {
+    /* width: 85px; */
+    /* height: 55px; */
+    /* mix-blend-mode: color-burn; */
+    margin-top: 15px;
+    margin-left: 75px;
+    /* background-color: white; */
+    text-transform: uppercase;
+    color: rgb(243, 232, 232);
+}
+#logo-img{
+    color: white;
+}
+
+.manu{
+    display: flex;
+    width: 40vw;
+    
+}
+ul{
+    display:flex;
+    width: inherit;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    
+    
+}
+li{
+    
+    height: 10vh;
+    padding-top: 20px;
+    
+}
+a{
+    text-decoration: none;
+    transition: all ease 2.5s;
+    color: white;
+
+}
+
+ul>li:hover {
+    border-top: 3px solid white; 
+}
+
+
+.search>input {
+    margin: 25px;
+    background-color: #121212;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.314);
+    padding: 3px;
+    color: white;
+    
+}
+
+.line {
+    width: 100vw;
+    height: 2px;
+    background-color:white;
+    
+}
+
+.main-contant{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+    color: white;
+    gap: 25px;
+}
+
+.left-side,.image-sec,.image-sec>img{
+    height:50vh;
+    width: 30vw;    
+}
+
+.btn-sec>button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left:30px;
+}
+.btn-sec>button:nth-child(2){
+    background-color: skyblue;
+}
+
+.right-side{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    gap: 25px;
+}
+
+.item-title{
+    width:auto;
+    color: white;
+}
+.ratings{
+    height: 25px;
+    
+}
+.price{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.price>h3:nth-child(2){
+    color: skyblue;
+}
+#line-through{
+    text-decoration: line-through;
+}
+
+
+.bold{
+    
+        font-weight: bold;
+    
+}
+.co-blue{
+    color: rgb(0, 119, 255);
+}
+

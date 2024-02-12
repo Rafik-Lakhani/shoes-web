@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    /* background-color:red; */
+    overflow-x: hidden;
+}
+
+.main {
+    
+    /* background-color: transparent;
+    height: 100vh;
+    width: 100vw;*/
+    /* position: absolute;  */
+    z-index: 4;
+    
+
+}
+.first-page{
+    z-index: 2;
+    /* position: absolute; */
+}
+
+.nav {
+    background-color:#121212;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo>h3 {
+    /* width: 85px; */
+    /* height: 55px; */
+    /* mix-blend-mode: color-burn; */
+    margin-top: 15px;
+    margin-left: 75px;
+    /* background-color: white; */
+    text-transform: uppercase;
+    color: rgb(243, 232, 232);
+}
+#logo-img{
+    color: white;
+}
+
+.manu{
+    display: flex;
+    width: 40vw;
+    
+}
+ul{
+    display:flex;
+    width: inherit;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    
+    
+}
+li{
+    
+    height: 10vh;
+    padding-top: 20px;
+    
+}
+a{
+    text-decoration: none;
+    transition: all ease 2.5s;
+    color: white;
+
+}
+
+ul>li:hover {
+    border-top: 3px solid white; 
+}
+
+
+.search>input {
+    margin: 25px;
+    background-color: #121212;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.314);
+    padding: 3px;
+    color: white;
+    
+}
+
+.line {
+    width: 100vw;
+    height: 1px;
+    background-color: rgba(58, 53, 53, 0.508);
+}
+
+.content {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    background-color: #121212;
+    justify-content: space-between;
+    padding: 2vw;
+
+
+}
+
+.content>.left>h1 {
+    /* margin-top: 25vh; */
+    font-size: 4rem;
+    font-weight: lighter;
+    font-weight: 100;
+
+
+}
+
+.left {
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-top: 25vh;
+    margin-left: 5vw;
+    max-width: 25vw;
+
+}
+
+#main-img {
+    height: 55vh;
+    width: 60vw;
+    /* mix-blend-mode:color-dodge; */
+
+
+    margin-top: 7vh;
+    padding: 0% 10%;
+    padding-bottom: 5vh;
+    padding-left:2vw;
+    /* mix-blend-mode: color-burn; */
+    rotate: -8deg;
+    /* border: 2px solid red; */
+    margin-bottom: 5vh;
+}
+
+
+.right {
+    column-gap: 20px;
+    /* border: 2PX solid RED; */
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-top: 25vh;
+    margin-left: 2vw;
+    margin-bottom: 25vh;
+    padding: 20px;
+    padding-left: 0px;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+
+
+.cardsec{
+    height: 115vh;
+    width: 100vw;
+    background-color:#121212;
+    padding: auto;
+    padding-top: 5vw;
+    z-index: 0;
+    
+    display:grid;
+    /* grid-column: 2; */
+    grid-template-columns: auto auto;
+}
+.card{
+    height: 40vh;
+    width: 30vw;
+    color: white;
+    margin: auto;
+    margin-top: 0;
+    object-fit:cover;
+    display: flex;
+    overflow:  hidden;
+    border-radius: 20px;
+    background-color: black;
+
+}
+
+.card-left{
+    background-color: black;
+    height: 40vh;
+    width: 15vw;
+    display: flex;
+    padding: auto;
+    object-fit: cover;
+    
+    
+}
+.card-left>img{
+    height: inherit;
+    width:inherit;
+    
+
+    border-radius: 25px;
+    
+
+}
+
+.partition{
+    height:30vh;
+    /* padding-top: auto; */
+    width: 1vw;
+    background-color:beige;
+    width: 5px;
+    display: flex;
+    margin: auto;
+}
+
+.card-right{
+    height: auto;
+    width: auto;
+    background-color: black;
+
+}
+.shoes-name{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 40px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+
+
+}
+.detail{
+   padding: 20px;
+   font-size: 0.75;
+
+
+/* this is demo div */
+}
+.third-page{
+    height: 110vh;
+    width: 100vw;
+    background-color: #121212;
+}
+.title-of-video{
+    display:inline-block;
+    margin-top: 23px;
+    margin-left: 5vw;
+    font-size: larger;
+
+    color: white;
+
+}
+
+.video>img{
+    width:90vw;
+    height:70vh ;
+    
+    margin-left: 5vw;
+    margin-bottom: 50px;
+    margin-top: 3vh;
+}
+
+.slogan
+{
+    color: white;
+    height: 20vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    background-color: #121212;
+    
+    
+}
+
+.slogan>h4:nth-child(1){
+    margin :auto;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+.slogan>h1{
+    font-size: 60px;
+}
+.slogan>h4:nth-child(3){
+    margin: auto;
+    font-size: medium;
+    margin-top: 20px;
+}
+.slogan>.btn-shop{
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding: 5px 15px;
+}
+.fourth-page{
+    
+    width: 100vw;
+    background-color: #121212;
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.heading{
+    color: white;
+    height: 20px;
+    width: 100vw;
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.photo-sec{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.photo-card{
+    width: 30vw;
+    
+    background-color: black;
+    margin: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.card-img>img{
+    height:40vh ;
+    width: 30vw;
+    border-radius: 15px;
+    
+
+}
+.photo-heading{
+    margin:20px 0px;
+    font-size: large;
+
+
+}
+.photo-detail{
+    font-size: 1.1rem;
+}
+
+.photo-shop-btn>button{
+    border:none;
+    text-decoration: underline;
+    color:white;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    background-color: #121212;
+    
+}
+
+.footer{
+    height: 70vh;
+    width: 100vw;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+}
+.colums-sec{
+    
+    
+    background-color:#121212;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50vh;
+    padding-top: 10vh;
+    
+    
+}
+.colums{
+    height: 40vh;
+    width: 10vw;
+    background-color: #121212;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.colums>h5>a{
+    color: white;
+    
+}
+.copy-right{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10vh;
+}
+
+
+
+
+
+

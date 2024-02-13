@@ -93,7 +93,9 @@ ul>li:hover {
 
 .left-side,.image-sec,.image-sec>img{
     height:50vh;
-    width: 30vw;    
+    width: 30vw;   
+    border-radius: 30px; 
+    margin-bottom :20px;
 }
 
 .btn-sec>button{

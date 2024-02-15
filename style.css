@@ -17,17 +17,17 @@ body{
     height: 100vh;
     width: 100vw;*/
     /* position: absolute;  */
-    z-index: 4;
+    /* z-index: 4; */
     
 
 }
 .first-page{
-    z-index: 2;
-    /* position: absolute; */
+    z-index: 10;
+    position: absolute;
 }
 
 .nav {
-    background-color:#121212;
+    background-color:transparent;
     height: 10vh;
     width: 100vw;
     display: flex;
@@ -104,7 +104,7 @@ ul>li:hover {
     width: 100vw;
     display: flex;
     overflow: hidden;
-    background-color: #121212;
+    background-color: transparent;
     justify-content: space-between;
     padding: 2vw;
 
@@ -164,7 +164,76 @@ ul>li:hover {
     margin-bottom: 15px;
 }
 
+.containal{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    border-color: #121212;
+    position: absolute;
+    top: 0;
+}
+.effect {
+    height: 100vh;
+    width: 100vw;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: -5;
+    overflow: hidden;
+    /* filter: blur(9px); */
+    /* background-color: #f00a0a; */
+    
+}
 
+.shape {
+    border-radius: 50%;
+    height: 330px;
+    width: 300px;
+    position: absolute;
+    background-color:white;
+    z-index: -1;
+
+    -webkit-filter: blur(350px);
+
+    
+
+}
+
+.shape:nth-child(1) {
+    top: -100px;
+    left: -120px;
+}
+
+.shape:nth-child(2) {
+    position: absolute;
+    top: -100px;
+    left: 90vw;
+}
+
+.shape:nth-child(3) {
+    top: 40%;
+    right: 35%;
+    width: 440px;
+
+}
+
+.blur {
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    background-color:black;
+   opacity: 20%;
+
+   
+    z-index: 5;
+    top: 0px;
+}
+
+.second-page{
+    position: relative;
+    top:100vh;
+}
 .cardsec{
     height: 115vh;
     width: 100vw;
@@ -172,7 +241,7 @@ ul>li:hover {
     padding: auto;
     padding-top: 5vw;
     z-index: 0;
-    
+    position: relative;
     display:grid;
     /* grid-column: 2; */
     grid-template-columns: auto auto;

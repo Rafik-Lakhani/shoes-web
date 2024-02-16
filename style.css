@@ -130,12 +130,12 @@ ul>li:hover {
 }
 
 #main-img {
-    height: 55vh;
-    width: 60vw;
+    height: 80vh;
+    width: 70vw;
     /* mix-blend-mode:color-dodge; */
+    
 
-
-    margin-top: 7vh;
+    margin-top: 3vh;
     padding: 0% 10%;
     padding-bottom: 5vh;
     padding-left:2vw;
@@ -222,6 +222,17 @@ ul>li:hover {
    
     z-index: 5;
     top: 0px;
+}
+
+.effect>h1{
+    font-family:'Gill Sans', sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: 25vw;
+    color: rgba(253, 251, 251, 0.9);
+    -webkit-text-stroke : 7px silver;
+    font-size: 20rem;
+    
 }
 
 
